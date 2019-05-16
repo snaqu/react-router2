@@ -3,7 +3,7 @@
   "env": {
     "jest": true
   },
-  "globals": { "document": true },
+  "globals": { "document": true, "fetch": true },
   "rules": {
     "react/jsx-filename-extension": [
       1,
@@ -12,6 +12,7 @@
       }
     ]
   },
+  "parser": "babel-eslint",
   "settings": {
     "import/resolver": {
       "node": {
