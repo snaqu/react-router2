@@ -19,10 +19,10 @@ const Page = styled.div`
   width: 1100px;
   min-height: 500px;
   height: 100%;
+  padding: 0 3em;
 `;
 
 const Content = ({ data }) => {
-  // console.log(data);
   return (
     <Wrapper>
       <Page>
